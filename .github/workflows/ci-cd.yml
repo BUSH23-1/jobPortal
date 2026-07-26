@@ -2,9 +2,9 @@ name: CI/CD Pipeline
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "jobportal" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "jobportal" ]
 
 jobs:
   backend:
@@ -66,7 +66,7 @@ jobs:
   deploy-frontend:
     needs: [backend, frontend]
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    if: github.ref == 'refs/heads/jobportal' && github.event_name == 'push'
     defaults:
       run:
         working-directory: frontend
