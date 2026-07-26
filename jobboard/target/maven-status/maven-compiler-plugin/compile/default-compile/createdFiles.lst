@@ -1,0 +1,8 @@
+com\globalco\jobboard\exception\JobNotFoundException.class
+com\globalco\jobboard\controller\JobController.class
+com\globalco\jobboard\JobboardApplication.class
+com\globalco\jobboard\model\Job.class
+com\globalco\jobboard\exception\GlobalExceptionHandler.class
+com\globalco\jobboard\controller\HealthController.class
+com\globalco\jobboard\repository\JobRepository.class
+com\globalco\jobboard\service\JobService.class

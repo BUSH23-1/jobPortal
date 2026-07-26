@@ -1,0 +1,15 @@
+# Test-only override: use in-memory H2 so tests don't need a real Postgres instance
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/employee_db
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: "2323"
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    init:
+      mode: always
