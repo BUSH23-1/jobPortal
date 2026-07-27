@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.globalco.jobboard.controller.JobControllerTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.10 s -- in com.globalco.jobboard.controller.JobControllerTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 32.47 s -- in com.globalco.jobboard.controller.JobControllerTest
